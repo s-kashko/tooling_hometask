@@ -3,7 +3,7 @@ export default class Message {
         this.label = 'Class Message'
     }
     message(message) {
-        const date = new Date().toJSON()
+        const date = new Date().toString()
         return (
             `${message} (posted on ${date})`
 

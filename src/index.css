@@ -7,14 +7,6 @@
   color: red;
 }
 
-.question {
-  background-image: url("/src/assets/q-icon.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50px;
-  width: 50px;
-}
-
 .imagesBox {
   display: flex;
   justify-content: space-around;

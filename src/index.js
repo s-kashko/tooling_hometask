@@ -34,17 +34,16 @@ const neuroImg = document.createElement('img');
 neuroImg.src = neuro;
 neuroImg.style.width = '100px';
 
+const telegramImg = document.createElement('img');
+telegramImg.style.width = '100px';
+telegramImg.src = telegram;
+
 const imagesBox = document.createElement('div');
 imagesBox.className = 'imagesBox';
 
 imagesBox.append(flowerImg);
 imagesBox.append(likeImg);
 imagesBox.append(neuroImg);
+imagesBox.append(telegramImg);
 
 document.body.append(imagesBox);
-
-const telegramImg = document.createElement('img');
-telegramImg.style.width = '200px';
-telegramImg.src = telegram;
-
-document.body.append(telegramImg);
