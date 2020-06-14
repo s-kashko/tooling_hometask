@@ -1,0 +1,27 @@
+.hello::before {
+  content: "***";
+  color: red;
+}
+.hello::after {
+  content: "***";
+  color: red;
+}
+
+.question {
+  background-image: url("/src/assets/q-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.imagesBox {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: gainsboro;
+}
+
+.imagesBox > * {
+  border-radius: 50%;
+}
