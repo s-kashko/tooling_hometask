@@ -7,7 +7,7 @@ module.exports = {
    entry: './src/index.js',
 
    output: {
-      filename: '[name].[contenthash].js',
+      filename: '[name].[hash].js',
       path: path.resolve(__dirname, 'build')
    },
 
@@ -45,5 +45,11 @@ module.exports = {
       }),
 
       new CleanWebpackPlugin()
-   ]
+   ],
+
+   devServer: {
+      open: true,
+      port: 3000,
+      hot: true
+   }
 }
