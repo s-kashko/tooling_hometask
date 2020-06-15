@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["react-app", "prettier"],
+  "rules": {
+    "jsx-quotes": [1, "prefer-double"],
+    "no-console": "warn",
+    "no-debugger": "error"
+  },
+  "plugins": ["prettier"]
+}
