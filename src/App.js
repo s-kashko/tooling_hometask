@@ -1,8 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import styled from 'styled-components'
 
 function App() {
+  const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +24,9 @@ function App() {
         >
           Learn React
         </a>
+        <Title>
+          Hello Styled!
+      </Title>
       </header>
     </div>
   );
